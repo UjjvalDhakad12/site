@@ -1,0 +1,67 @@
+/* Navbar.css */
+
+/* Main navbar styles */
+.navbar {
+    background-color: #FF6978 !important;
+}
+
+.navbar-title {
+    font-family: 'Arial', sans-serif;
+    color: #FFFCF9;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Links on desktop */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #FFFCF9;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: #ff4e5a;
+    border-radius: 5px;
+}
+
+/* Drawer styles */
+.drawer-title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #FF6978;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.drawer-links {
+    text-align: center;
+}
+
+.drawer-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.drawer-links a:hover {
+    color: #FF4e5a;
+}
+
+.drawer-paper {
+    width: 240px;
+    background-color: #FFFCF9;
+    color: #FF6978;
+}
